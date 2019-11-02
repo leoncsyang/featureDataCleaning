@@ -1,8 +1,11 @@
 # featureDataCleaning
-Cleaning the data from Feature Extraction Project
+Cleaning the data from Feature Extraction Project for SOEN6491
 the program will combine five refactoring featrues data files.
 1. Reduce duplicate AST, and put refactoring type label for each AST. Write into All_Factoring.csv
-2. Create five different csv files for each refactoring type with header: AST, IsType
+2. Create five different CSV files with prefix: "OUT_" for each refactoring type.
+3. CSV contains two column: AST, IsType
 
-use the below command to run the program: 
+How To Run:
+Use the below command to run the program: 
+
 python fileparser.py EXTRACT_AND_MOVE_METHOD EXTRACT_METHOD EXTRACT_VARIABLE INLINE_VARIABLE MOVE_METHOD
